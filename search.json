@@ -2,7 +2,7 @@
   
     {
       "title"    : "The Path To Becoming An Ethical Hacker",
-      "url"      : "/blog/2019-12-19-the-path-to-becoming-an-ethical-hacker/"
+      "url"      : "/blog/the-path-to-becoming-an-ethical-hacker/"
     } 
   
   ,
@@ -52,6 +52,10 @@
      
         "title"    : "Writeups",
         "url"      : "/writeups/"
+     
+   } ,
+  
+   {
      
    } ,
   
