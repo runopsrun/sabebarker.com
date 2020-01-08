@@ -13,6 +13,13 @@
   
    {
      
+        "title"    : "Active Information Gathering",
+        "url"      : "/writeups/pentesting-cheatsheets/reconnaissance/active-information-gathering/"
+     
+   } ,
+  
+   {
+     
         "title"    : "Basic Setup",
         "url"      : "/writeups/hackthebox/getting-started/basic-setup/"
      
@@ -36,7 +43,28 @@
    {
      
         "title"    : "Introduction",
+        "url"      : "/writeups/pentesting-cheatsheets/getting-started/introduction/"
+     
+   } ,
+  
+   {
+     
+        "title"    : "Introduction",
         "url"      : "/writeups/hackthebox/getting-started/introduction/"
+     
+   } ,
+  
+   {
+     
+        "title"    : "Linux Privilege Escalation",
+        "url"      : "/writeups/pentesting-cheatsheets/privilege-escalation/linux/"
+     
+   } ,
+  
+   {
+     
+        "title"    : "Networked",
+        "url"      : "/writeups/hackthebox/machines/networked/"
      
    } ,
   
@@ -59,6 +87,20 @@
      
         "title"    : "VPN Setup",
         "url"      : "/writeups/hackthebox/getting-started/vpn-setup/"
+     
+   } ,
+  
+   {
+     
+        "title"    : "Web Shells",
+        "url"      : "/writeups/pentesting-cheatsheets/shells/web/"
+     
+   } ,
+  
+   {
+     
+        "title"    : "Windows Privilege Escalation",
+        "url"      : "/writeups/pentesting-cheatsheets/privilege-escalation/windows/"
      
    } ,
   
