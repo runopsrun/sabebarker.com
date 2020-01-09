@@ -70,7 +70,7 @@
         <ul class="navbar-nav sb-navbar-nav flex-row">
           <li class="nav-item">
             <a class="nav-link " href="/search">
-        <svg height="15" class="octicon octicon-search octicon octicon-search octicon octicon-search octicon octicon-search octicon octicon-search octicon octicon-search octicon octicon-search octicon octicon-search octicon octicon-search octicon octicon-search octicon octicon-search" viewbox="0 0 16 16" version="1.1" width="15" aria-hidden="true"><path fill-rule="evenodd" d="M15.7 13.3l-3.81-3.83A5.93 5.93 0 0013 6c0-3.31-2.69-6-6-6S1 2.69 1 6s2.69 6 6 6c1.3 0 2.48-.41 3.47-1.11l3.83 3.81c.19.2.45.3.7.3.25 0 .52-.09.7-.3a.996.996 0 000-1.41v.01zM7 10.7c-2.59 0-4.7-2.11-4.7-4.7 0-2.59 2.11-4.7 4.7-4.7 2.59 0 4.7 2.11 4.7 4.7 0 2.59-2.11 4.7-4.7 4.7z"></path></svg>
+        <svg height="15" class="octicon octicon-search" viewbox="0 0 16 16" version="1.1" width="15" aria-hidden="true"><path fill-rule="evenodd" d="M15.7 13.3l-3.81-3.83A5.93 5.93 0 0013 6c0-3.31-2.69-6-6-6S1 2.69 1 6s2.69 6 6 6c1.3 0 2.48-.41 3.47-1.11l3.83 3.81c.19.2.45.3.7.3.25 0 .52-.09.7-.3a.996.996 0 000-1.41v.01zM7 10.7c-2.59 0-4.7-2.11-4.7-4.7 0-2.59 2.11-4.7 4.7-4.7 2.59 0 4.7 2.11 4.7 4.7 0 2.59-2.11 4.7-4.7 4.7z"></path></svg>
       </a>
           </li>
           <li class="nav-item">
@@ -546,7 +546,7 @@ Ncat: Connection from 10.10.10.146:41616.
 <span class="nb">id
 </span><span class="nv">uid</span><span class="o">=</span>48<span class="o">(</span>apache<span class="o">)</span> <span class="nv">gid</span><span class="o">=</span>48<span class="o">(</span>apache<span class="o">)</span> <span class="nb">groups</span><span class="o">=</span>48<span class="o">(</span>apache<span class="o">)</span></code></pre></figure>
 
-<p>From here we can <a href="#">upgrade our shell</a> if we wish.</p>
+<p>From here we can <a href="/writeups/pentesting-cheatsheets/privilege-escalation/linux/#upgrade-shell">upgrade our shell</a> if we wish.</p>
 
 <p>As we can see we are the user <code class="highlighter-rouge">apache</code> and if we use the command <code class="highlighter-rouge">pwd</code> our current working directory is <code class="highlighter-rouge">/var/www/html/uploads</code>. If we go to our <code class="highlighter-rouge">home</code> folder with the command <code class="highlighter-rouge">cd ~</code> we see that our home directory path is <code class="highlighter-rouge">/usr/share/httpd</code>. If we check this location with <code class="highlighter-rouge">ls -l</code> we see that there is no <code class="highlighter-rouge">user.txt</code> file.</p>
 
@@ -663,7 +663,7 @@ Ncat: Connection from 10.10.10.146:39574.
 <span class="nb">cat </span>user.txt 
 526cfc2305....12c57d71c5</code></pre></figure>
 
-<p>We have our <code class="highlighter-rouge">user.txt</code> flag! Once again we can <a href="#">upgrade our shell</a> if we wish. Now on to <code class="highlighter-rouge">root</code>.</p>
+<p>We have our <code class="highlighter-rouge">user.txt</code> flag! Once again we can <a href="/writeups/pentesting-cheatsheets/privilege-escalation/linux/#upgrade-shell">upgrade our shell</a> if we wish. Now on to <code class="highlighter-rouge">root</code>.</p>
 
 <h2 id="root">Root</h2>
 
