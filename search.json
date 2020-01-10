@@ -1,6 +1,11 @@
 [
   
     {
+      "title"    : "DNSAdmin to Domain Controller Compromise",
+      "url"      : "/blog/dnsadmin-to-domain-controller-compromise/"
+    } ,
+  
+    {
       "title"    : "The Path To Becoming An Ethical Hacker",
       "url"      : "/blog/the-path-to-becoming-an-ethical-hacker/"
     } 
