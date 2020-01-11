@@ -70,7 +70,7 @@
         <ul class="navbar-nav sb-navbar-nav flex-row">
           <li class="nav-item">
             <a class="nav-link " href="/search">
-        <svg height="15" class="octicon octicon-search octicon octicon-search octicon octicon-search octicon octicon-search octicon octicon-search octicon octicon-search octicon octicon-search octicon octicon-search octicon octicon-search octicon octicon-search octicon octicon-search octicon octicon-search" viewbox="0 0 16 16" version="1.1" width="15" aria-hidden="true"><path fill-rule="evenodd" d="M15.7 13.3l-3.81-3.83A5.93 5.93 0 0013 6c0-3.31-2.69-6-6-6S1 2.69 1 6s2.69 6 6 6c1.3 0 2.48-.41 3.47-1.11l3.83 3.81c.19.2.45.3.7.3.25 0 .52-.09.7-.3a.996.996 0 000-1.41v.01zM7 10.7c-2.59 0-4.7-2.11-4.7-4.7 0-2.59 2.11-4.7 4.7-4.7 2.59 0 4.7 2.11 4.7 4.7 0 2.59-2.11 4.7-4.7 4.7z"></path></svg>
+        <svg height="15" class="octicon octicon-search octicon octicon-search octicon octicon-search octicon octicon-search octicon octicon-search octicon octicon-search octicon octicon-search octicon octicon-search octicon octicon-search octicon octicon-search octicon octicon-search octicon octicon-search octicon octicon-search" viewbox="0 0 16 16" version="1.1" width="15" aria-hidden="true"><path fill-rule="evenodd" d="M15.7 13.3l-3.81-3.83A5.93 5.93 0 0013 6c0-3.31-2.69-6-6-6S1 2.69 1 6s2.69 6 6 6c1.3 0 2.48-.41 3.47-1.11l3.83 3.81c.19.2.45.3.7.3.25 0 .52-.09.7-.3a.996.996 0 000-1.41v.01zM7 10.7c-2.59 0-4.7-2.11-4.7-4.7 0-2.59 2.11-4.7 4.7-4.7 2.59 0 4.7 2.11 4.7 4.7 0 2.59-2.11 4.7-4.7 4.7z"></path></svg>
       </a>
           </li>
           <li class="nav-item">
@@ -143,11 +143,16 @@
 </ul>
     </div>
 <div class="sb-toc-item active">
-      <a class="sb-toc-link" href="/writeups/hackthebox/machines/craft/">
+      <a class="sb-toc-link" href="/writeups/hackthebox/machines/bitlab/">
         Machines
       </a>
 
       <ul class="nav sb-sidenav">
+<li>
+            <a href="/writeups/hackthebox/machines/bitlab/">
+              Bitlab
+            </a>
+          </li>
 <li>
             <a href="/writeups/hackthebox/machines/craft/">
               Craft
@@ -204,7 +209,7 @@
           <p class="sb-lead">Always stay close to what keeps you feeling alive!</p>
           <p class="text-center"><img src="/assets/img/writeups/hackthebox/machines/networked/networked_infocard.png" alt="HackTheBox Networked Machine Info Card" class="img-fluid"></p>
 
-<p>Networked is an easy difficulty machine running Linux. It tests your knowledge in <em>PHP</em> and basic privilege escalation. Without some knowledge of <em>PHP</em> you may find this machine a bit challenging.</p>
+<p><strong>Networked</strong> is an easy difficulty machine running Linux. It tests your knowledge in <em>PHP</em> and basic privilege escalation. Without some knowledge of <em>PHP</em> you may find this machine a bit challenging.</p>
 
 <p>Be sure to checkout the <a href="/writeups/hackthebox/getting-started/basic-setup/">Basic Setup</a> section before you get started.</p>
 
@@ -771,6 +776,8 @@ interface BROWSER_ONLY:
 b
 interface BOOTPROTO:
 e
+<span class="o">[</span>root@networked network-scripts]# <span class="nb">id
+</span><span class="nv">uid</span><span class="o">=</span>0<span class="o">(</span>root<span class="o">)</span> <span class="nv">gid</span><span class="o">=</span>0<span class="o">(</span>root<span class="o">)</span> <span class="nb">groups</span><span class="o">=</span>0<span class="o">(</span>root<span class="o">)</span>
 <span class="o">[</span>root@networked network-scripts]# <span class="nb">cat</span> /root/root.txt
 0a8ecda83f....ac3d0dcb82</code></pre></figure>
 

@@ -32,6 +32,13 @@
   
    {
      
+        "title"    : "Bitlab",
+        "url"      : "/writeups/hackthebox/machines/bitlab/"
+     
+   } ,
+  
+   {
+     
         "title"    : "Craft",
         "url"      : "/writeups/hackthebox/machines/craft/"
      
