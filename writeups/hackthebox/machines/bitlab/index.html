@@ -204,6 +204,7 @@
 <li class="toc-entry toc-h3"><a href="#git-hooks">Git Hooks</a></li>
 </ul>
 </li>
+<li class="toc-entry toc-h2"><a href="#conclusion">Conclusion</a></li>
 </ul>
           </div>
         
@@ -541,6 +542,10 @@ root@bitlab:/tmp/profile# <span class="nb">cat</span> /root/root.txt
 8d4cc13175....cddccd587c</code></pre></figure>
 
 <p>There we have it <code class="highlighter-rouge">www-data -&gt; root</code>.</p>
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p>The initial foothold ones again shows how the misconfiguration of a website can cause a ripple all the way to a system breach. Once compromised the misconfiguration of tools like <code class="highlighter-rouge">sudo</code> allow execution of a command that can cause <em>privilege escalation</em> to <code class="highlighter-rouge">root</code> quite easily. To avoid such things don’t misconfigure a link to direct to your personal bookmarks which weirdly contains javascript code that holds your username and password <img class="emoji" title=":laughing:" alt=":laughing:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f606.png" height="20" width="20"></p>
 <!-- Hack The Box Badge -->
           <p class="text-center" style="padding-top: 10px;"><img src="https://www.hackthebox.eu/badge/image/195745" alt="Hack The Box"></p></main>
       </div>
