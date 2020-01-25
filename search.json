@@ -1,6 +1,11 @@
 [
   
     {
+      "title"    : "P&amp;N Bank Information Breach",
+      "url"      : "/blog/p-and-n-bank-information-data-breach/"
+    } ,
+  
+    {
       "title"    : "DNSAdmin to Domain Controller Compromise",
       "url"      : "/blog/dnsadmin-to-domain-controller-compromise/"
     } ,
@@ -20,6 +25,13 @@
      
         "title"    : "Active Information Gathering",
         "url"      : "/writeups/pentesting-cheatsheets/reconnaissance/active-information-gathering/"
+     
+   } ,
+  
+   {
+     
+        "title"    : "AI",
+        "url"      : "/writeups/hackthebox/machines/ai/"
      
    } ,
   
