@@ -80,6 +80,13 @@
   
    {
      
+        "title"    : "Json",
+        "url"      : "/writeups/hackthebox/machines/json/"
+     
+   } ,
+  
+   {
+     
         "title"    : "Linux Privilege Escalation",
         "url"      : "/writeups/pentesting-cheatsheets/privilege-escalation/linux/"
      
