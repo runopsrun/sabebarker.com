@@ -137,6 +137,13 @@
   
    {
      
+        "title"    : "Traverxec",
+        "url"      : "/writeups/hackthebox/machines/traverxec/"
+     
+   } ,
+  
+   {
+     
         "title"    : "VPN Setup",
         "url"      : "/writeups/hackthebox/getting-started/vpn-setup/"
      
