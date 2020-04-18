@@ -101,6 +101,13 @@
   
    {
      
+        "title"    : "Mango",
+        "url"      : "/writeups/hackthebox/machines/mango/"
+     
+   } ,
+  
+   {
+     
         "title"    : "Networked",
         "url"      : "/writeups/hackthebox/machines/networked/"
      
