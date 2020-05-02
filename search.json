@@ -115,6 +115,13 @@
   
    {
      
+        "title"    : "OpenAdmin",
+        "url"      : "/writeups/hackthebox/machines/openadmin/"
+     
+   } ,
+  
+   {
+     
         "title"    : "Postman",
         "url"      : "/writeups/hackthebox/machines/postman/"
      
