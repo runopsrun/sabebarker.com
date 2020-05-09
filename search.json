@@ -115,6 +115,13 @@
   
    {
      
+        "title"    : "Obscurity",
+        "url"      : "/writeups/hackthebox/machines/obscurity/"
+     
+   } ,
+  
+   {
+     
         "title"    : "OpenAdmin",
         "url"      : "/writeups/hackthebox/machines/openadmin/"
      
